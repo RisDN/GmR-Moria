@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="https://gmrgta.hu/assets/images/gmr-512-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesújt az igazság!</title>
+</head>
+
+<body>
+    <audio src="src/banya_hang.mp3"></audio>
+
+    <h1 class="cim">Minecraft Moria</h1>
+
+    <div class="jatekter_regisztracio" id="regisztracio">
+        <div class="nevek">
+            <h1>Regisztráció a játékhoz</h1>
+            <input placeholder="Vezetéknév" type="text" id="nev1"><br>
+            <input placeholder="Keresztnév" type="text" id="nev2"><br><br>
+            <button id="regisztracio">Regisztráció</button>
+        </div>
+        <div class="utmutato">
+            <h1>Útmutató</h1>
+            <ul>
+                <li>#1 Regisztrálj a bal oldalt</li>
+                <li>#2 Valami rosszat tettél <br> ezért a bányába kerülsz</li>
+                <li>#3 Ledolgozod a kopácsolást</li>
+                <li>#4 Szabad ember vagy</li>
+                <li>#5 Többet nem szabálytalankodsz</li>
+                <li>#6 Happy End</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="jatekter" id="palya">
+        <h1 id="gulagSzoveg" class="gulagSzoveg"></h1>
+        <img draggable="false" src="src/kepek/gmrlogo.png" class="gmrlogo">
+        <div id="egyseg"></div>
+        <h1 id="egysegKijelzo"></h1>
+    </div>
+
+    <div class="jatekter_vege" id="palya_vege">
+        <img draggable="false" src="src/kepek/gmrlogo.png" class="gmrlogo">
+        <h1 id="elhagyhatja"></h1>
+        <p class="vegeSzoveg">Köszönöm hogy kijátszottad a kis játékomat!</p>
+    </div>
+    <p class="info">Bányássz, hogy szabad légy! <br><strong class="keszito">Készítette: Ris#2928<strong></p>
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src/egysegek_helyei.js"></script>
+<script src="src/App.js"></script>
+
+</html>

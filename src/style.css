@@ -1,0 +1,154 @@
+@font-face {
+    font-family: ChaletComprime;
+    src: url('font/ChaletComprime-CologneEighty.ttf') format("truetype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: ChaletComprime;
+    background-color: rgb(199, 197, 197);
+    overflow: hidden;
+}
+
+.jatekter {
+    background-image: url('kepek/hatter.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 854px;
+    height: 480px;
+    margin: 0 auto;
+    display: none;
+    cursor: url('kepek/dia.png'), auto;
+}
+
+.jatekter #egysegKijelzo {
+    position: relative;
+    top: 90%;
+    left: 1%;
+    color: whitesmoke;
+}
+
+.gulagSzoveg {
+    position: relative;
+    text-align: center;
+    top: 25%;
+    color: honeydew;
+}
+
+.gulagFigyelem {
+    color: rgb(147, 196, 109);
+}
+
+#elhagyhatja {
+    position: relative;
+    text-align: center;
+    top: 25%;
+    color: honeydew;
+}
+
+#egyseg {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url('kepek/CoalOre_64x64.png');
+    background-repeat: no-repeat;
+    cursor: url('kepek/dia.png'), auto;
+}
+
+.egysegek_szama {
+    color: cyan;
+}
+
+.cim {
+    text-align: center;
+    font-size: 55px;
+}
+
+.gmrlogo {
+    position: absolute;
+    top: 11%;
+    left: 65%;
+    width: 130px;
+    height: 145px;
+}
+
+.info {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.keszito {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.jatekter_vege {
+    text-align: center;
+    background-image: url('kepek/hatterkep_vege.jpeg');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 854px;
+    height: 480px;
+    margin: 0 auto;
+    display: none;
+}
+
+.vegeSzoveg {
+    color: aliceblue;
+    position: relative;
+    top: 50%;
+    font-size: 55px;
+}
+
+.jatekter_regisztracio {
+    background-image: url('kepek/resized-image-Promo\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 945px;
+    height: 693px;
+    margin: 0 auto;
+}
+
+.nevek {
+    position: relative;
+    top: 27%;
+    right: 22%;
+    text-align: center;
+}
+
+.nevek h1 {
+    font-size: 45px;
+}
+
+input {
+    margin: 5px;
+    width: 150px;
+    height: 19px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.utmutato {
+    position: relative;
+    bottom: 4%;
+    left: 55%;
+}
+
+.utmutato h1 {
+    font-size: 44px;
+}
+
+.utmutato li {
+    font-size: 25px;
+    padding: 5px;
+}
